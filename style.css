@@ -1,0 +1,14 @@
+.fa-circle-check,
+.fa-circle-minus {
+	pointer-events: none;
+}
+
+.completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.fall {
+	transform: translateY(8rem) rotateZ(25deg);
+	opacity: 0;
+}
