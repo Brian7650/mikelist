@@ -9,6 +9,10 @@
 }
 
 .fall {
-	transform: translateY(8rem) rotateZ(25deg);
+	transform: translateY(8rem) rotateZ(20deg);
 	opacity: 0;
+}
+
+.todo {
+	transition: all 0.5s ease;
 }

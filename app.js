@@ -44,9 +44,9 @@ function deleteCheck(e) {
         // Animation
         todo.classList.add("fall");
         todo.addEventListener("transitionend", function(){
-         todo.remove();
-       });
-    }
+        todo.remove();
+    });
+ }
 
 // Check  Mark
 if (item.classList[0] === "complete-btn") {
